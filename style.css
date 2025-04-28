@@ -21,8 +21,8 @@ header{
         align-items: center;
 
 }
-.pokebola img Pokebola{
-    padding: 10px;
+.pokebola img{
+    padding: 5px;
     position: absolute;
 }
 .pokebola{
@@ -30,8 +30,8 @@ header{
     justify-items: center;
     align-items: center;
 }
-.pokebola span{
-    padding: -17px;
+.pokebola p{
+    padding: 59px;
     color: var(--primary-color);
     font-size: 32px;
 }
@@ -51,7 +51,7 @@ main{
 .background-text{
     padding:  88px 0 0 0;
 }
-p{
+.background-text p{
     padding: 88px 0 0 0;
     color: white;
     opacity: 20%;
@@ -62,7 +62,7 @@ p{
     justify-content: center;
     position: absolute
 }
-p2{
+.background-text p2{
     color: white;
     padding: 50px;
     font-size: 300px;
@@ -71,10 +71,7 @@ p2{
     justify-content: center;
     position: absolute;
 }
-span{
-    color: var(--primary-color);
 
-}
 .righteous-regular {
     font-family: "Righteous", sans-serif;
     font-weight: 400;
@@ -91,14 +88,11 @@ span{
     padding: 340px -100px 0 40px;
   }
   footer{
-    height: 100px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    padding-left: 75px;
-    padding-right: 75px;
     color:#FFFFFF;
-    font-weight: 100;
+    font-size: 16px;
   }
   .footer-text{
     justify-content: center;

@@ -69,18 +69,25 @@ main {
     z-index: 0;
 }
 
-.background-text p {
+.background-text p {    
     color: white;
     opacity: 20%;
-    font-size: 400px;
+    font-size: 500px ;
+    margin-left: 1%;
+    margin-bottom: 60%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     position: absolute;
     font-weight: 400px;
 }
 .background-text p2{
     color: white;
-
+    
     font-size: 300px;
     font-weight: 400px;
+        margin-left: 1%;
+    margin-bottom: 60%;
    
 }
 
@@ -92,11 +99,24 @@ main {
 .Pikachu img {
     width: 600px;
     height: 541px;
+    margin-top: 50%;
 }
 
 .let{
     color: var(--primary-color);
     justify-content: left;
+    text-align: left ;
+    margin-right: 60%;
+    margin-left: 10%;
+    margin-top: 50%;
+    margin-bottom: 30%;
+    position: absolute;
+}
+.let h3{
+    font-size: 40px;
+}
+.let span{
+    font-size: 20px;
 }
 
 
@@ -105,15 +125,20 @@ main {
     color: white;
     border: none;
     padding: 12px 24px;
-    border-radius: 8px;
-    font-size: 70px;
+    margin-right: 10%;
+    margin-left: 60%;
+    margin-top: 50%;
+    margin-bottom: 30%;
+    position: absolute;
+    font-size: 50px;
     box-shadow: var(--default-shadow);
+
     text-decoration: none;
 
 }
 .button-download img{
-    height: 50px;
-    width: 50px;
+    height: 30px;
+    width: 30px;
 }
 
 footer {
